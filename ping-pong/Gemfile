@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+
+gem 'settingslogic'
+gem 'byebug'
+gem 'karafka', path: '/home/mencio/Software/Github/karafka/karafka'
+gem 'karafka-sidekiq-backend', path: '/home/mencio/Software/Github/karafka/karafka-sidekiq-backend'
+gem 'newrelic_rpm'

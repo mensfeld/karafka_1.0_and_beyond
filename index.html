@@ -1,0 +1,549 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Karafka 1.0 and beyond</title>
+
+		<meta name="description" content="Karafka 1.0 and beyond">
+		<meta name="author" content="Maciej Mensfeld">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme.css" id="theme">
+		<link rel="stylesheet" href="css/custom.css" id="theme">
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<div class="slides">
+				<section>
+          <img src="img/karafka-04.png" style="border: none; box-shadow: 0 0 0 0 #fff; width: 50%"/>
+					<h3>Karafka 1.0 and beyond</h3>
+				</section>
+
+				<section>
+					<h2>$ whoami</h2>
+
+					<p>
+            <a href="http://mensfeld.pl">Maciej Mensfeld</a>
+          </p>
+
+					<p>
+						<ul style="list-style: none; text-align: center;">
+							<li>
+								Software Engineer
+							</li>
+							<li>
+								<a href="https://github.com/karafka/karafka">Karafka</a> creator
+							</li>
+							<li>
+                <a href="https://krug.org.pl">KRUG</a> organizer
+							</li>
+              <li>
+                And many others
+              </li>
+						</ul>
+          </p>
+				</section>
+
+        <section>
+          <img src="img/krug.jpg" style="width: 100%"/>
+        </section>
+
+				<section>
+					<h2>$ whoami</h2>
+
+					<p>
+            www: <a href="http://mensfeld.pl">mensfeld.pl</a> <br>
+            twitter: <a href="http://twitter.com/maciejmensfeld">@maciejmensfeld</a> <br>
+            e-mail: <a href="mailto:maciej@coditsu.io">maciej@mensfeld.pl</a>
+          </p>
+				</section>
+
+				<section>
+					<h2>Please notify me if...</h2>
+
+					<ul>
+						<li>
+							I speak 2 fast
+						</li>
+						<li>
+							I should repeat anything
+						</li>
+						<li>
+							I should explain something better
+						</li>
+						<li>
+							You have any questions
+						</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Agenda</h2>
+
+					<ul>
+						<li>What is Kafka (shortly)</li>
+						<li>Kafka + Ruby</li>
+            <li>Karafka 1.0</li>
+            <li>Karafka upcoming improvements</li>
+            <li>Karafka as one of the non Rails Way stack layers</li>
+						<li>Live coding</li>
+					</ul>
+				</section>
+
+				<section>
+          <img src="img/kafka.png" style="border: none; box-shadow: 0 0 0 0 #fff; width: 70%"/>
+				</section>
+
+				<section>
+					<h2>What is Kafka?</h2>
+
+					<h4>A distributed streaming platform</h4>
+					<h4>A high-throughput distributed messaging system</h4>
+				</section>
+
+				<section>
+					<h2>What is Kafka?</h2>
+
+					<ul>
+						<li>
+							Kafka is designed to allow a single cluster to serve as the central data backbone for a large organization
+						</li>
+						<li>
+							It can be elastically and transparently expanded without downtime
+						</li>
+						<li>
+							It provides broadcasting to many applications
+						</li>
+						<li>
+							Allows to build systems that are event based
+						</li>
+					</ul>
+				</section>
+
+				<section>
+         <h2>Who uses Kafka?</h2>
+
+          <ul style="padding-right: 10%;">
+            <li>Linkedin</li>
+            <li>Yahoo</li>
+            <li>Twitter</li>
+            <li>Netflix</li>
+            <li>Square</li>
+            <li>Spotify</li>
+            <li>Pinterest</li>
+            <li>Uber</li>
+          </ul>
+
+          <ul>
+            <li>Tumblr</li>
+            <li>Cisco</li>
+            <li>Foursquare</li>
+            <li>Shopify</li>
+            <li>Oracle</li>
+            <li>Urban Airship</li>
+            <li>OVH</li>
+            <li>And many more...</li>
+          </ul>
+        </section>
+
+				<section>
+         <h3>How Kafka works?</h3>
+
+          <img src="img/kafka-apis.png" style="width: 50%"/>
+       </section>
+
+				<section>
+         <h3>How Kafka works?</h3>
+
+          <img src="img/log_anatomy.png"/>
+       </section>
+
+				<section>
+         <h3>How Kafka works?</h3>
+
+          <img src="img/consumer-groups.png"/>
+       </section>
+
+				<section>
+          <img src="img/kafka.png" style="border: none; box-shadow: 0 0 0 0 #fff; width: 30%"/>
+          <br/>
+          +
+          <br/>
+          <br/>
+          <img src="img/ruby.gif" style="border: none; box-shadow: 0 0 0 0 #fff; width: 20%"/>
+				</section>
+
+				<section>
+					<h2>Kafka + Ruby</h2>
+
+					<ul>
+            <li><a href="https://github.com/karafka">karafka</a></li>
+						<li><a href="https://github.com/zendesk/racecar">racecar</a></li>
+            <li><a href="https://github.com/klarna/phobos">phobos</a></li>
+            <li><a href="https://github.com/zendesk/ruby-kafka">ruby-kafka</a></li>
+            <li><a href="https://github.com/joekiller/jruby-kafka">jruby-kafka</a></li>
+					</ul>
+				</section>
+
+				<section>
+          <img src="img/karafka-04.png" style="border: none; box-shadow: 0 0 0 0 #fff; width: 70%"/>
+
+					<h3>1.0.0</h3>
+				</section>
+
+				<section>
+          <h2>What is Karafka?</h2>
+
+          <ul>
+            <li>It is a framework</li>
+            <li>It was designed to simplify Kafka based applications development</li>
+            <li>It allows developers to build "Rails like" apps that consume and produce messages</li>
+          </ul>
+        </section>
+
+				<section>
+          <h3>Why Karafka was developed?</h3>
+
+          <p>
+          	We've needed a tool that would allow us to:
+          </p>
+
+          <ul>
+            <li>build applications faster</li>
+            <li>process faster</li>
+            <li>handle events and messages from many sources and process them the same way</li>
+          </ul>
+        </section>
+
+				<section>
+          <h3>Why Karafka was developed?</h3>
+          <h4>Developers should focus on the business logic</h4>
+
+          <p>
+          	But:
+          </p>
+
+          <ul>
+          	<li>threads</li>
+          	<li>signals</li>
+          	<li>connection management</li>
+          	<li>load balancing</li>
+          	<li>connection failures / reconnections</li>
+          </ul>
+
+          <p>
+          	aren't business logic
+          </p>
+        </section>
+
+        <section>
+          <h2>
+            HTTP like feeling in Kafka world?
+          </h2>
+        </section>
+
+        <section>
+          <h2>But the truth is, Kafka world is nothing like HTTP</h2>
+        </section>
+
+        <section>
+          <img src="img/karafka-04.png" style="border: none; box-shadow: 0 0 0 0 #fff; width: 50%"/>
+
+          <h2>Karafka 1.0 features</h2>
+        </section>
+
+        <section>
+          <ul>
+            <li>Batch processing</li>
+            <li>Multi batch transactions</li>
+            <li>Different scaling strategies</li>
+            <li>Non homogenic threads</li>
+            <li>Different processing strategies</li>
+            <li>Params lazy evaluation</li>
+            <li>Multi Kafka setup</li>
+          </ul>
+        </section>
+
+
+        <section>
+          <h2>Batch processing</h2>
+
+          <img src="img/batches.png" style="background: none; border: none; box-shadow: 0 0 0 0 #fff; max-width: 45%"/>
+        </section>
+
+        <section>
+          <h2>Batch processing</h2>
+
+          <p>It gives you possibility to work with and to transform data in many new ways.</p>
+        </section>
+
+        <section>
+          <h2>Multi batch transactions</h2>
+
+          <p>
+            Imagine a transaction that lasts across thousands of requests
+          </p>
+          <p>
+            Transaction for which you need no new persistence layer until you get all the data you've needed
+          </p>
+        </section>
+
+        <section>
+          <h2>Multi batch transactions</h2>
+
+<pre><code data-trim>
+  def perform
+    buffer << params_batch.map { |param| param[:event] }
+    if buffer.size >= FLUSH_SIZE
+      data = buffer.shift(FLUSH_SIZE)
+      Event.import(data)
+    end
+  end
+
+  def buffer
+    @buffer ||= []
+  end
+</code></pre>
+        </section>
+
+        <section>
+          <h2>Multi batch transactions</h2>
+
+<pre><code data-trim>
+buffer = []
+customer_id = 1
+
+params_batch.each do |params|
+  next unless params[:customer_id] == 1
+  case params.fetch(:type)
+  when 'add_to_cart'
+    buffer << params
+  when 'complete_purchase'
+    Events.import(buffer)
+    consumer.mark_message_as_processed(params)
+    buffer = []
+  end
+end
+</code></pre>
+        </section>
+
+				<section>
+          <h3>Different scaling strategies</h3>
+
+          <ul>
+            <li>Threads are not homogenic (like with Puma or Sidekiq)</li>
+            <li>Their internals can act differently depending on the app settings</li>
+            <li>Multi-process single application deployment support</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Non homogenic threads</h3>
+
+          <ul>
+            <li>Long living  controllers</li>
+            <li>Short living controllers (for both message and message batches)</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Different processing strategies</h3>
+
+          <ul>
+            <li>Inline processing</li>
+            <li>Sidekiq processing</li>
+            <li>Guild processing (Ruby 3.0)</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Params lazy evaluation</h2>
+
+          <p>
+            params_batch is not just a simple array. The messages inside are lazy parsed upon first usage.
+          </p>
+
+          <p>
+            This is super useful when filtering data based on Kafka metadata
+          </p>
+        </section>
+
+        <section>
+          <h2>Params lazy evaluation</h2>
+
+<pre><code data-trim>
+def perform
+  params_batch.to_a.each do |param|
+    param[:parsed] #=> false
+    next unless User.exists?(param[:key])
+    # Some heavy parsing happens here
+    param.retrieve!
+    param[:parsed] #=> true
+    User.where(id: param[:key]).update!(param[:user])
+  end
+end
+</code></pre>
+        </section>
+
+        <section>
+          <h2>Multi Kafka setup</h2>
+
+<pre><code data-trim>
+consumer_group :videos_consumer do
+  seed_brokers [public_cluster_brokers]
+  topic :customer_data do
+    controller CustomerDataFilteringController
+    responder CustomerDataFilteringResponder
+  end
+end
+
+consumer_group :videos_consumer do
+  seed_brokers [private_cluster_brokers]
+  topic :customer_data do
+    controller CustomerDataProcessingController
+  end
+end
+</code></pre>
+        </section>
+
+        <section>
+          <h3>Karafka upcomings</h3>
+
+          <ul>
+            <li>Guild processing (Ruby 3.0)</li>
+            <li>Truffle Ruby support</li>
+            <li>Manual offset commits management</li>
+            <li>Pipeflow visualisation for multi application workflows</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Karafka as a non Rails Way stack layer</h2>
+
+          <ul>
+            <li>Kafka and Karafka can be a great alternative to callbacks and other alternative notifiers (broadcasting instead of callbacks)</li>
+            <li>It can acts as a flow normalization layer for high throughput tasks</li>
+            <li>Due to it's nature it can easily acts as an auto-scaling layer for handling incoming data spikes</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Karafka as a non Rails Way stack layer</h3>
+
+          <p>
+            Because Karafka provides a message transportation and processing layer, it works really great with other modern Ruby solutions including:
+
+            <ul>
+              <li>Reform</li>
+              <li>Trailblazer</li>
+              <li>ROM</li>
+              <li>Dry ecosystem</li>
+              <li>Eventide (for some of the layers)</li>
+            </ul>
+          </p>
+        </section>
+
+
+        <section>
+          <h3>Karafka as a non Rails Way stack layer</h3>
+
+          <p>Example integration with Trailblazer + Reform</p>
+
+<pre><code data-trim>
+class CommitBuildsCopyController < KarafkaController
+  def perform
+    params_batch.each do |params|
+      CommitBuilds::Copy.call(params)
+    end
+  end
+end
+</code></pre>
+        </section>
+
+        <section>
+          <h2>Live coding</h2>
+        </section>
+
+        <section>
+          <h2>WANT TO CONTRIBUTE?</h2>
+
+          <p>
+            <a href="https://github.com/karafka">github.com/karafka</a>
+          </p>
+
+
+          <p>
+            <img src="img/github.png" style="background: none; border: none; box-shadow: 0 0 0 0 #fff; margin: 0; padding: 0;"/>
+          </p>
+
+          <ul>
+            <li>The more people star it, the more people use it</li>
+            <li>The more people use it, the more people star it</li>
+            <li>There are many issues you can help us fix</li>
+          </ul>
+        </section>
+
+
+        <section>
+          <h2>READ MORE</h2>
+
+          <ul>
+            <li><a href="https://github.com/karafka/karafka">github.com/karafka/karafka</a></li>
+            <li><a href="https://github.com/karafka">github.com/karafka</a></li>
+            <li><a href="http://mensfeld.pl/tag/karafka">mensfeld.pl/tag/karafka</a></li>
+            <li><a href="http://kafka.apache.org/">kafka.apache.org</a></li>
+          </ul>
+        </section>
+
+        <section>
+          <h1>THE END - Q &amp; A</h1>
+
+          <ul style="text-align: center; list-style: none;">
+            <li><a href="https://github.com/karafka">github.com/karafka</a></li>
+            <li><a href="mailto:maciej@mensfeld.pl">maciej@mensfeld.pl</a></li>
+            <li><a href="http://twitter.com/maciejmensfeld">@maciejmensfeld</a></li>
+          </ul>
+        </section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

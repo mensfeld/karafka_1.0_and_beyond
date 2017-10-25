@@ -1,0 +1,745 @@
+# Logfile created on 2017-10-18 15:47:25 +0200 by logger.rb/56815
+[2017-10-18 15:47:25 +0200 izanami (8001)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 15:47:25 +0200 izanami (8001)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 15:47:25 +0200 izanami (8001)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 15:47:25 +0200 izanami (8001)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 15:47:25 +0200 izanami (8001)] INFO : Environment: development
+[2017-10-18 15:47:25 +0200 izanami (8001)] INFO : No known dispatcher detected.
+[2017-10-18 15:47:25 +0200 izanami (8001)] INFO : Application: development
+[2017-10-18 15:47:25 +0200 izanami (8001)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 15:47:25 +0200 izanami (8001)] INFO : Installing Redis Instrumentation
+[2017-10-18 15:47:25 +0200 izanami (8001)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 15:47:25 +0200 izanami (8001)] INFO : Installing Net instrumentation
+[2017-10-18 15:47:25 +0200 izanami (8001)] INFO : Finished instrumentation
+[2017-10-18 15:47:40 +0200 izanami (8035)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 15:47:40 +0200 izanami (8035)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 15:47:40 +0200 izanami (8035)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 15:47:40 +0200 izanami (8035)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 15:47:40 +0200 izanami (8035)] INFO : Environment: development
+[2017-10-18 15:47:40 +0200 izanami (8035)] INFO : No known dispatcher detected.
+[2017-10-18 15:47:40 +0200 izanami (8035)] INFO : Application: development
+[2017-10-18 15:47:40 +0200 izanami (8035)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 15:47:40 +0200 izanami (8035)] INFO : Installing Redis Instrumentation
+[2017-10-18 15:47:40 +0200 izanami (8035)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 15:47:40 +0200 izanami (8035)] INFO : Installing Net instrumentation
+[2017-10-18 15:47:40 +0200 izanami (8035)] INFO : Finished instrumentation
+[2017-10-18 15:47:56 +0200 izanami (8064)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 15:47:56 +0200 izanami (8064)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 15:47:56 +0200 izanami (8064)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 15:47:56 +0200 izanami (8064)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 15:47:56 +0200 izanami (8064)] INFO : Environment: development
+[2017-10-18 15:47:56 +0200 izanami (8064)] INFO : No known dispatcher detected.
+[2017-10-18 15:47:56 +0200 izanami (8064)] INFO : Application: development
+[2017-10-18 15:47:56 +0200 izanami (8064)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 15:47:56 +0200 izanami (8064)] INFO : Installing Redis Instrumentation
+[2017-10-18 15:47:56 +0200 izanami (8064)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 15:47:56 +0200 izanami (8064)] INFO : Installing Net instrumentation
+[2017-10-18 15:47:56 +0200 izanami (8064)] INFO : Finished instrumentation
+[2017-10-18 15:49:13 +0200 izanami (8157)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 15:49:13 +0200 izanami (8157)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 15:49:13 +0200 izanami (8157)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 15:49:13 +0200 izanami (8157)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 15:49:13 +0200 izanami (8157)] INFO : Environment: development
+[2017-10-18 15:49:13 +0200 izanami (8157)] INFO : No known dispatcher detected.
+[2017-10-18 15:49:13 +0200 izanami (8157)] INFO : Application: development
+[2017-10-18 15:49:13 +0200 izanami (8157)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 15:49:13 +0200 izanami (8157)] INFO : Installing Redis Instrumentation
+[2017-10-18 15:49:13 +0200 izanami (8157)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 15:49:13 +0200 izanami (8157)] INFO : Installing Net instrumentation
+[2017-10-18 15:49:13 +0200 izanami (8157)] INFO : Finished instrumentation
+[2017-10-18 15:49:17 +0200 izanami (8441)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 15:49:17 +0200 izanami (8441)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 15:49:17 +0200 izanami (8441)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 15:49:17 +0200 izanami (8441)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 15:49:17 +0200 izanami (8441)] INFO : Environment: development
+[2017-10-18 15:49:17 +0200 izanami (8441)] INFO : No known dispatcher detected.
+[2017-10-18 15:49:17 +0200 izanami (8441)] INFO : Application: development
+[2017-10-18 15:49:17 +0200 izanami (8441)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 15:49:17 +0200 izanami (8441)] INFO : Installing Redis Instrumentation
+[2017-10-18 15:49:17 +0200 izanami (8441)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 15:49:17 +0200 izanami (8441)] INFO : Installing Net instrumentation
+[2017-10-18 15:49:17 +0200 izanami (8441)] INFO : Finished instrumentation
+[2017-10-18 15:50:43 +0200 izanami (8487)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 15:50:43 +0200 izanami (8487)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 15:50:43 +0200 izanami (8487)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 15:50:43 +0200 izanami (8487)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 15:50:43 +0200 izanami (8487)] INFO : Environment: development
+[2017-10-18 15:50:43 +0200 izanami (8487)] INFO : No known dispatcher detected.
+[2017-10-18 15:50:43 +0200 izanami (8487)] INFO : Application: development
+[2017-10-18 15:50:43 +0200 izanami (8487)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 15:50:43 +0200 izanami (8487)] INFO : Installing Redis Instrumentation
+[2017-10-18 15:50:43 +0200 izanami (8487)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 15:50:43 +0200 izanami (8487)] INFO : Installing Net instrumentation
+[2017-10-18 15:50:43 +0200 izanami (8487)] INFO : Finished instrumentation
+[2017-10-18 15:53:23 +0200 izanami (8635)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 15:53:23 +0200 izanami (8635)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 15:53:23 +0200 izanami (8635)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 15:53:23 +0200 izanami (8635)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 15:53:23 +0200 izanami (8635)] INFO : Environment: development
+[2017-10-18 15:53:23 +0200 izanami (8635)] INFO : No known dispatcher detected.
+[2017-10-18 15:53:23 +0200 izanami (8635)] INFO : Application: development
+[2017-10-18 15:53:23 +0200 izanami (8635)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 15:53:23 +0200 izanami (8635)] INFO : Installing Redis Instrumentation
+[2017-10-18 15:53:23 +0200 izanami (8635)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 15:53:23 +0200 izanami (8635)] INFO : Installing Net instrumentation
+[2017-10-18 15:53:23 +0200 izanami (8635)] INFO : Finished instrumentation
+[2017-10-18 15:53:44 +0200 izanami (8669)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 15:53:44 +0200 izanami (8669)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 15:53:44 +0200 izanami (8669)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 15:53:44 +0200 izanami (8669)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 15:53:44 +0200 izanami (8669)] INFO : Environment: development
+[2017-10-18 15:53:44 +0200 izanami (8669)] INFO : No known dispatcher detected.
+[2017-10-18 15:53:44 +0200 izanami (8669)] INFO : Application: development
+[2017-10-18 15:53:44 +0200 izanami (8669)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 15:53:44 +0200 izanami (8669)] INFO : Installing Redis Instrumentation
+[2017-10-18 15:53:44 +0200 izanami (8669)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 15:53:44 +0200 izanami (8669)] INFO : Installing Net instrumentation
+[2017-10-18 15:53:44 +0200 izanami (8669)] INFO : Finished instrumentation
+[2017-10-18 16:08:07 +0200 izanami (9133)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 16:08:07 +0200 izanami (9133)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 16:08:07 +0200 izanami (9133)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 16:08:07 +0200 izanami (9133)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 16:08:07 +0200 izanami (9133)] INFO : Environment: development
+[2017-10-18 16:08:07 +0200 izanami (9133)] INFO : No known dispatcher detected.
+[2017-10-18 16:08:07 +0200 izanami (9133)] INFO : Application: development
+[2017-10-18 16:08:07 +0200 izanami (9133)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 16:08:07 +0200 izanami (9133)] INFO : Installing Redis Instrumentation
+[2017-10-18 16:08:07 +0200 izanami (9133)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 16:08:07 +0200 izanami (9133)] INFO : Installing Net instrumentation
+[2017-10-18 16:08:07 +0200 izanami (9133)] INFO : Finished instrumentation
+[2017-10-18 16:09:29 +0200 izanami (9201)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 16:09:29 +0200 izanami (9201)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 16:09:29 +0200 izanami (9201)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 16:09:29 +0200 izanami (9201)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 16:09:29 +0200 izanami (9201)] INFO : Environment: development
+[2017-10-18 16:09:29 +0200 izanami (9201)] INFO : No known dispatcher detected.
+[2017-10-18 16:09:29 +0200 izanami (9201)] INFO : Application: development
+[2017-10-18 16:09:29 +0200 izanami (9201)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 16:09:29 +0200 izanami (9201)] INFO : Installing Redis Instrumentation
+[2017-10-18 16:09:29 +0200 izanami (9201)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 16:09:29 +0200 izanami (9201)] INFO : Installing Net instrumentation
+[2017-10-18 16:09:29 +0200 izanami (9201)] INFO : Finished instrumentation
+[2017-10-18 16:10:38 +0200 izanami (9251)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 16:10:38 +0200 izanami (9251)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 16:10:38 +0200 izanami (9251)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 16:10:38 +0200 izanami (9251)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 16:10:38 +0200 izanami (9251)] INFO : Environment: development
+[2017-10-18 16:10:38 +0200 izanami (9251)] INFO : No known dispatcher detected.
+[2017-10-18 16:10:38 +0200 izanami (9251)] INFO : Application: development
+[2017-10-18 16:10:38 +0200 izanami (9251)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 16:10:38 +0200 izanami (9251)] INFO : Installing Redis Instrumentation
+[2017-10-18 16:10:38 +0200 izanami (9251)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 16:10:38 +0200 izanami (9251)] INFO : Installing Net instrumentation
+[2017-10-18 16:10:38 +0200 izanami (9251)] INFO : Finished instrumentation
+[2017-10-18 16:11:06 +0200 izanami (9281)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 16:11:06 +0200 izanami (9281)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 16:11:06 +0200 izanami (9281)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 16:11:06 +0200 izanami (9281)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 16:11:06 +0200 izanami (9281)] INFO : Environment: development
+[2017-10-18 16:11:06 +0200 izanami (9281)] INFO : No known dispatcher detected.
+[2017-10-18 16:11:06 +0200 izanami (9281)] INFO : Application: development
+[2017-10-18 16:11:06 +0200 izanami (9281)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 16:11:06 +0200 izanami (9281)] INFO : Installing Redis Instrumentation
+[2017-10-18 16:11:06 +0200 izanami (9281)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 16:11:06 +0200 izanami (9281)] INFO : Installing Net instrumentation
+[2017-10-18 16:11:06 +0200 izanami (9281)] INFO : Finished instrumentation
+[2017-10-18 16:13:53 +0200 izanami (9414)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 16:13:53 +0200 izanami (9414)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 16:13:53 +0200 izanami (9414)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 16:13:53 +0200 izanami (9414)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 16:13:53 +0200 izanami (9414)] INFO : Environment: development
+[2017-10-18 16:13:53 +0200 izanami (9414)] INFO : No known dispatcher detected.
+[2017-10-18 16:13:53 +0200 izanami (9414)] INFO : Application: development
+[2017-10-18 16:13:53 +0200 izanami (9414)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 16:13:53 +0200 izanami (9414)] INFO : Installing Redis Instrumentation
+[2017-10-18 16:13:53 +0200 izanami (9414)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 16:13:53 +0200 izanami (9414)] INFO : Installing Net instrumentation
+[2017-10-18 16:13:53 +0200 izanami (9414)] INFO : Finished instrumentation
+[2017-10-18 16:17:27 +0200 izanami (9617)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 16:17:27 +0200 izanami (9617)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 16:17:27 +0200 izanami (9617)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 16:17:27 +0200 izanami (9617)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 16:17:27 +0200 izanami (9617)] INFO : Environment: development
+[2017-10-18 16:17:27 +0200 izanami (9617)] INFO : No known dispatcher detected.
+[2017-10-18 16:17:27 +0200 izanami (9617)] INFO : Application: development
+[2017-10-18 16:17:27 +0200 izanami (9617)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 16:17:27 +0200 izanami (9617)] INFO : Installing Redis Instrumentation
+[2017-10-18 16:17:27 +0200 izanami (9617)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 16:17:27 +0200 izanami (9617)] INFO : Installing Net instrumentation
+[2017-10-18 16:17:27 +0200 izanami (9617)] INFO : Finished instrumentation
+[2017-10-18 16:17:41 +0200 izanami (9645)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 16:17:41 +0200 izanami (9645)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 16:17:41 +0200 izanami (9645)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 16:17:41 +0200 izanami (9645)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 16:17:41 +0200 izanami (9645)] INFO : Environment: development
+[2017-10-18 16:17:41 +0200 izanami (9645)] INFO : No known dispatcher detected.
+[2017-10-18 16:17:41 +0200 izanami (9645)] INFO : Application: development
+[2017-10-18 16:17:41 +0200 izanami (9645)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 16:17:41 +0200 izanami (9645)] INFO : Installing Redis Instrumentation
+[2017-10-18 16:17:41 +0200 izanami (9645)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 16:17:41 +0200 izanami (9645)] INFO : Installing Net instrumentation
+[2017-10-18 16:17:41 +0200 izanami (9645)] INFO : Finished instrumentation
+[2017-10-18 16:23:17 +0200 izanami (9845)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 16:23:17 +0200 izanami (9845)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 16:23:17 +0200 izanami (9845)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 16:23:17 +0200 izanami (9845)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 16:23:17 +0200 izanami (9845)] INFO : Environment: development
+[2017-10-18 16:23:17 +0200 izanami (9845)] INFO : No known dispatcher detected.
+[2017-10-18 16:23:17 +0200 izanami (9845)] INFO : Application: development
+[2017-10-18 16:23:17 +0200 izanami (9845)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 16:23:17 +0200 izanami (9845)] INFO : Installing Redis Instrumentation
+[2017-10-18 16:23:17 +0200 izanami (9845)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 16:23:17 +0200 izanami (9845)] INFO : Installing Net instrumentation
+[2017-10-18 16:23:17 +0200 izanami (9845)] INFO : Finished instrumentation
+[2017-10-18 16:23:34 +0200 izanami (9863)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 16:23:34 +0200 izanami (9863)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 16:23:34 +0200 izanami (9863)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 16:23:34 +0200 izanami (9863)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 16:23:34 +0200 izanami (9863)] INFO : Environment: development
+[2017-10-18 16:23:34 +0200 izanami (9863)] INFO : No known dispatcher detected.
+[2017-10-18 16:23:34 +0200 izanami (9863)] INFO : Application: development
+[2017-10-18 16:23:34 +0200 izanami (9863)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 16:23:34 +0200 izanami (9863)] INFO : Installing Redis Instrumentation
+[2017-10-18 16:23:34 +0200 izanami (9863)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 16:23:34 +0200 izanami (9863)] INFO : Installing Net instrumentation
+[2017-10-18 16:23:34 +0200 izanami (9863)] INFO : Finished instrumentation
+[2017-10-18 16:24:27 +0200 izanami (9908)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 16:24:27 +0200 izanami (9908)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 16:24:27 +0200 izanami (9908)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 16:24:27 +0200 izanami (9908)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 16:24:27 +0200 izanami (9908)] INFO : Environment: development
+[2017-10-18 16:24:27 +0200 izanami (9908)] INFO : No known dispatcher detected.
+[2017-10-18 16:24:27 +0200 izanami (9908)] INFO : Application: development
+[2017-10-18 16:24:27 +0200 izanami (9908)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 16:24:27 +0200 izanami (9908)] INFO : Installing Redis Instrumentation
+[2017-10-18 16:24:27 +0200 izanami (9908)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 16:24:27 +0200 izanami (9908)] INFO : Installing Net instrumentation
+[2017-10-18 16:24:27 +0200 izanami (9908)] INFO : Finished instrumentation
+[2017-10-18 16:28:54 +0200 izanami (10015)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 16:28:54 +0200 izanami (10015)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 16:28:54 +0200 izanami (10015)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 16:28:54 +0200 izanami (10015)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 16:28:54 +0200 izanami (10015)] INFO : Environment: development
+[2017-10-18 16:28:54 +0200 izanami (10015)] INFO : No known dispatcher detected.
+[2017-10-18 16:28:54 +0200 izanami (10015)] INFO : Application: development
+[2017-10-18 16:28:54 +0200 izanami (10015)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 16:28:54 +0200 izanami (10015)] INFO : Installing Redis Instrumentation
+[2017-10-18 16:28:54 +0200 izanami (10015)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 16:28:54 +0200 izanami (10015)] INFO : Installing Net instrumentation
+[2017-10-18 16:28:54 +0200 izanami (10015)] INFO : Finished instrumentation
+[2017-10-18 16:29:06 +0200 izanami (10040)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 16:29:06 +0200 izanami (10040)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 16:29:06 +0200 izanami (10040)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 16:29:06 +0200 izanami (10040)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 16:29:06 +0200 izanami (10040)] INFO : Environment: development
+[2017-10-18 16:29:06 +0200 izanami (10040)] INFO : No known dispatcher detected.
+[2017-10-18 16:29:06 +0200 izanami (10040)] INFO : Application: development
+[2017-10-18 16:29:06 +0200 izanami (10040)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 16:29:06 +0200 izanami (10040)] INFO : Installing Redis Instrumentation
+[2017-10-18 16:29:06 +0200 izanami (10040)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 16:29:06 +0200 izanami (10040)] INFO : Installing Net instrumentation
+[2017-10-18 16:29:06 +0200 izanami (10040)] INFO : Finished instrumentation
+[2017-10-18 16:29:27 +0200 izanami (10070)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 16:29:27 +0200 izanami (10070)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 16:29:27 +0200 izanami (10070)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 16:29:27 +0200 izanami (10070)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 16:29:27 +0200 izanami (10070)] INFO : Environment: development
+[2017-10-18 16:29:27 +0200 izanami (10070)] INFO : No known dispatcher detected.
+[2017-10-18 16:29:27 +0200 izanami (10070)] INFO : Application: development
+[2017-10-18 16:29:27 +0200 izanami (10070)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 16:29:27 +0200 izanami (10070)] INFO : Installing Redis Instrumentation
+[2017-10-18 16:29:27 +0200 izanami (10070)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 16:29:27 +0200 izanami (10070)] INFO : Installing Net instrumentation
+[2017-10-18 16:29:27 +0200 izanami (10070)] INFO : Finished instrumentation
+[2017-10-18 16:31:32 +0200 izanami (10187)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 16:31:32 +0200 izanami (10187)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 16:31:32 +0200 izanami (10187)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 16:31:32 +0200 izanami (10187)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 16:31:32 +0200 izanami (10187)] INFO : Environment: development
+[2017-10-18 16:31:32 +0200 izanami (10187)] INFO : No known dispatcher detected.
+[2017-10-18 16:31:32 +0200 izanami (10187)] INFO : Application: development
+[2017-10-18 16:31:32 +0200 izanami (10187)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 16:31:32 +0200 izanami (10187)] INFO : Installing Redis Instrumentation
+[2017-10-18 16:31:32 +0200 izanami (10187)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 16:31:32 +0200 izanami (10187)] INFO : Installing Net instrumentation
+[2017-10-18 16:31:32 +0200 izanami (10187)] INFO : Finished instrumentation
+[2017-10-18 16:32:00 +0200 izanami (10218)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 16:32:00 +0200 izanami (10218)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 16:32:00 +0200 izanami (10218)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 16:32:00 +0200 izanami (10218)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 16:32:00 +0200 izanami (10218)] INFO : Environment: development
+[2017-10-18 16:32:00 +0200 izanami (10218)] INFO : No known dispatcher detected.
+[2017-10-18 16:32:00 +0200 izanami (10218)] INFO : Application: development
+[2017-10-18 16:32:00 +0200 izanami (10218)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 16:32:00 +0200 izanami (10218)] INFO : Installing Redis Instrumentation
+[2017-10-18 16:32:00 +0200 izanami (10218)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 16:32:00 +0200 izanami (10218)] INFO : Installing Net instrumentation
+[2017-10-18 16:32:00 +0200 izanami (10218)] INFO : Finished instrumentation
+[2017-10-18 16:32:06 +0200 izanami (10239)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 16:32:06 +0200 izanami (10239)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 16:32:06 +0200 izanami (10239)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 16:32:06 +0200 izanami (10239)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 16:32:06 +0200 izanami (10239)] INFO : Environment: development
+[2017-10-18 16:32:06 +0200 izanami (10239)] INFO : No known dispatcher detected.
+[2017-10-18 16:32:06 +0200 izanami (10239)] INFO : Application: development
+[2017-10-18 16:32:06 +0200 izanami (10239)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 16:32:06 +0200 izanami (10239)] INFO : Installing Redis Instrumentation
+[2017-10-18 16:32:06 +0200 izanami (10239)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 16:32:06 +0200 izanami (10239)] INFO : Installing Net instrumentation
+[2017-10-18 16:32:06 +0200 izanami (10239)] INFO : Finished instrumentation
+[2017-10-18 16:32:55 +0200 izanami (11144)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 16:32:55 +0200 izanami (11144)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 16:32:55 +0200 izanami (11144)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 16:32:55 +0200 izanami (11144)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 16:32:55 +0200 izanami (11144)] INFO : Environment: development
+[2017-10-18 16:32:55 +0200 izanami (11144)] INFO : No known dispatcher detected.
+[2017-10-18 16:32:55 +0200 izanami (11144)] INFO : Application: development
+[2017-10-18 16:32:55 +0200 izanami (11144)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 16:32:55 +0200 izanami (11144)] INFO : Installing Redis Instrumentation
+[2017-10-18 16:32:55 +0200 izanami (11144)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 16:32:55 +0200 izanami (11144)] INFO : Installing Net instrumentation
+[2017-10-18 16:32:55 +0200 izanami (11144)] INFO : Finished instrumentation
+[2017-10-18 16:33:08 +0200 izanami (11211)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 16:33:08 +0200 izanami (11211)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 16:33:08 +0200 izanami (11211)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 16:33:08 +0200 izanami (11211)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 16:33:08 +0200 izanami (11211)] INFO : Environment: development
+[2017-10-18 16:33:08 +0200 izanami (11211)] INFO : No known dispatcher detected.
+[2017-10-18 16:33:08 +0200 izanami (11211)] INFO : Application: development
+[2017-10-18 16:33:08 +0200 izanami (11211)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 16:33:08 +0200 izanami (11211)] INFO : Installing Redis Instrumentation
+[2017-10-18 16:33:08 +0200 izanami (11211)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 16:33:08 +0200 izanami (11211)] INFO : Installing Net instrumentation
+[2017-10-18 16:33:08 +0200 izanami (11211)] INFO : Finished instrumentation
+[2017-10-18 16:33:44 +0200 izanami (11242)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 16:33:44 +0200 izanami (11242)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 16:33:44 +0200 izanami (11242)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 16:33:44 +0200 izanami (11242)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 16:33:44 +0200 izanami (11242)] INFO : Environment: development
+[2017-10-18 16:33:44 +0200 izanami (11242)] INFO : No known dispatcher detected.
+[2017-10-18 16:33:44 +0200 izanami (11242)] INFO : Application: development
+[2017-10-18 16:33:44 +0200 izanami (11242)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 16:33:44 +0200 izanami (11242)] INFO : Installing Redis Instrumentation
+[2017-10-18 16:33:44 +0200 izanami (11242)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 16:33:44 +0200 izanami (11242)] INFO : Installing Net instrumentation
+[2017-10-18 16:33:44 +0200 izanami (11242)] INFO : Finished instrumentation
+[2017-10-18 16:34:07 +0200 izanami (11277)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 16:34:07 +0200 izanami (11277)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 16:34:07 +0200 izanami (11277)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 16:34:07 +0200 izanami (11277)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 16:34:07 +0200 izanami (11277)] INFO : Environment: development
+[2017-10-18 16:34:07 +0200 izanami (11277)] INFO : No known dispatcher detected.
+[2017-10-18 16:34:07 +0200 izanami (11277)] INFO : Application: development
+[2017-10-18 16:34:07 +0200 izanami (11277)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 16:34:07 +0200 izanami (11277)] INFO : Installing Redis Instrumentation
+[2017-10-18 16:34:07 +0200 izanami (11277)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 16:34:07 +0200 izanami (11277)] INFO : Installing Net instrumentation
+[2017-10-18 16:34:07 +0200 izanami (11277)] INFO : Finished instrumentation
+[2017-10-18 16:34:20 +0200 izanami (11306)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 16:34:20 +0200 izanami (11306)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 16:34:20 +0200 izanami (11306)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 16:34:20 +0200 izanami (11306)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 16:34:20 +0200 izanami (11306)] INFO : Environment: development
+[2017-10-18 16:34:20 +0200 izanami (11306)] INFO : No known dispatcher detected.
+[2017-10-18 16:34:20 +0200 izanami (11306)] INFO : Application: development
+[2017-10-18 16:34:20 +0200 izanami (11306)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 16:34:20 +0200 izanami (11306)] INFO : Installing Redis Instrumentation
+[2017-10-18 16:34:20 +0200 izanami (11306)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 16:34:20 +0200 izanami (11306)] INFO : Installing Net instrumentation
+[2017-10-18 16:34:20 +0200 izanami (11306)] INFO : Finished instrumentation
+[2017-10-18 16:35:12 +0200 izanami (11349)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 16:35:12 +0200 izanami (11349)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 16:35:12 +0200 izanami (11349)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 16:35:12 +0200 izanami (11349)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 16:35:12 +0200 izanami (11349)] INFO : Environment: development
+[2017-10-18 16:35:12 +0200 izanami (11349)] INFO : No known dispatcher detected.
+[2017-10-18 16:35:12 +0200 izanami (11349)] INFO : Application: development
+[2017-10-18 16:35:12 +0200 izanami (11349)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 16:35:12 +0200 izanami (11349)] INFO : Installing Redis Instrumentation
+[2017-10-18 16:35:12 +0200 izanami (11349)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 16:35:12 +0200 izanami (11349)] INFO : Installing Net instrumentation
+[2017-10-18 16:35:12 +0200 izanami (11349)] INFO : Finished instrumentation
+[2017-10-18 16:35:27 +0200 izanami (11377)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 16:35:27 +0200 izanami (11377)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 16:35:27 +0200 izanami (11377)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 16:35:27 +0200 izanami (11377)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 16:35:27 +0200 izanami (11377)] INFO : Environment: development
+[2017-10-18 16:35:27 +0200 izanami (11377)] INFO : No known dispatcher detected.
+[2017-10-18 16:35:27 +0200 izanami (11377)] INFO : Application: development
+[2017-10-18 16:35:27 +0200 izanami (11377)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 16:35:27 +0200 izanami (11377)] INFO : Installing Redis Instrumentation
+[2017-10-18 16:35:27 +0200 izanami (11377)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 16:35:27 +0200 izanami (11377)] INFO : Installing Net instrumentation
+[2017-10-18 16:35:27 +0200 izanami (11377)] INFO : Finished instrumentation
+[2017-10-18 16:38:24 +0200 izanami (11830)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 16:38:24 +0200 izanami (11830)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 16:38:24 +0200 izanami (11830)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 16:38:24 +0200 izanami (11830)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 16:38:24 +0200 izanami (11830)] INFO : Environment: development
+[2017-10-18 16:38:24 +0200 izanami (11830)] INFO : No known dispatcher detected.
+[2017-10-18 16:38:24 +0200 izanami (11830)] INFO : Application: development
+[2017-10-18 16:38:24 +0200 izanami (11830)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 16:38:24 +0200 izanami (11830)] INFO : Installing Redis Instrumentation
+[2017-10-18 16:38:24 +0200 izanami (11830)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 16:38:24 +0200 izanami (11830)] INFO : Installing Net instrumentation
+[2017-10-18 16:38:24 +0200 izanami (11830)] INFO : Finished instrumentation
+[2017-10-18 16:39:14 +0200 izanami (11889)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 16:39:14 +0200 izanami (11889)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 16:39:14 +0200 izanami (11889)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 16:39:14 +0200 izanami (11889)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 16:39:14 +0200 izanami (11889)] INFO : Environment: development
+[2017-10-18 16:39:14 +0200 izanami (11889)] INFO : No known dispatcher detected.
+[2017-10-18 16:39:14 +0200 izanami (11889)] INFO : Application: development
+[2017-10-18 16:39:14 +0200 izanami (11889)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 16:39:14 +0200 izanami (11889)] INFO : Installing Redis Instrumentation
+[2017-10-18 16:39:14 +0200 izanami (11889)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 16:39:14 +0200 izanami (11889)] INFO : Installing Net instrumentation
+[2017-10-18 16:39:14 +0200 izanami (11889)] INFO : Finished instrumentation
+[2017-10-18 16:39:36 +0200 izanami (11913)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 16:39:36 +0200 izanami (11913)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 16:39:36 +0200 izanami (11913)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 16:39:36 +0200 izanami (11913)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 16:39:36 +0200 izanami (11913)] INFO : Environment: development
+[2017-10-18 16:39:36 +0200 izanami (11913)] INFO : No known dispatcher detected.
+[2017-10-18 16:39:36 +0200 izanami (11913)] INFO : Application: development
+[2017-10-18 16:39:36 +0200 izanami (11913)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 16:39:36 +0200 izanami (11913)] INFO : Installing Redis Instrumentation
+[2017-10-18 16:39:36 +0200 izanami (11913)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 16:39:36 +0200 izanami (11913)] INFO : Installing Net instrumentation
+[2017-10-18 16:39:36 +0200 izanami (11913)] INFO : Finished instrumentation
+[2017-10-18 16:40:25 +0200 izanami (11968)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 16:40:25 +0200 izanami (11968)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 16:40:25 +0200 izanami (11968)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 16:40:25 +0200 izanami (11968)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 16:40:25 +0200 izanami (11968)] INFO : Environment: development
+[2017-10-18 16:40:25 +0200 izanami (11968)] INFO : No known dispatcher detected.
+[2017-10-18 16:40:25 +0200 izanami (11968)] INFO : Application: development
+[2017-10-18 16:40:25 +0200 izanami (11968)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 16:40:25 +0200 izanami (11968)] INFO : Installing Redis Instrumentation
+[2017-10-18 16:40:25 +0200 izanami (11968)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 16:40:25 +0200 izanami (11968)] INFO : Installing Net instrumentation
+[2017-10-18 16:40:25 +0200 izanami (11968)] INFO : Finished instrumentation
+[2017-10-18 16:41:04 +0200 izanami (12005)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 16:41:04 +0200 izanami (12005)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 16:41:04 +0200 izanami (12005)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 16:41:04 +0200 izanami (12005)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 16:41:04 +0200 izanami (12005)] INFO : Environment: development
+[2017-10-18 16:41:04 +0200 izanami (12005)] INFO : No known dispatcher detected.
+[2017-10-18 16:41:04 +0200 izanami (12005)] INFO : Application: development
+[2017-10-18 16:41:04 +0200 izanami (12005)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 16:41:04 +0200 izanami (12005)] INFO : Installing Redis Instrumentation
+[2017-10-18 16:41:04 +0200 izanami (12005)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 16:41:04 +0200 izanami (12005)] INFO : Installing Net instrumentation
+[2017-10-18 16:41:04 +0200 izanami (12005)] INFO : Finished instrumentation
+[2017-10-18 16:42:52 +0200 izanami (12090)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 16:42:52 +0200 izanami (12090)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 16:42:52 +0200 izanami (12090)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 16:42:52 +0200 izanami (12090)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 16:42:52 +0200 izanami (12090)] INFO : Environment: development
+[2017-10-18 16:42:52 +0200 izanami (12090)] INFO : No known dispatcher detected.
+[2017-10-18 16:42:52 +0200 izanami (12090)] INFO : Application: development
+[2017-10-18 16:42:52 +0200 izanami (12090)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 16:42:52 +0200 izanami (12090)] INFO : Installing Redis Instrumentation
+[2017-10-18 16:42:52 +0200 izanami (12090)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 16:42:52 +0200 izanami (12090)] INFO : Installing Net instrumentation
+[2017-10-18 16:42:52 +0200 izanami (12090)] INFO : Finished instrumentation
+[2017-10-18 16:43:07 +0200 izanami (12127)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 16:43:07 +0200 izanami (12127)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 16:43:07 +0200 izanami (12127)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 16:43:07 +0200 izanami (12127)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 16:43:07 +0200 izanami (12127)] INFO : Environment: development
+[2017-10-18 16:43:07 +0200 izanami (12127)] INFO : No known dispatcher detected.
+[2017-10-18 16:43:07 +0200 izanami (12127)] INFO : Application: development
+[2017-10-18 16:43:07 +0200 izanami (12127)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 16:43:07 +0200 izanami (12127)] INFO : Installing Redis Instrumentation
+[2017-10-18 16:43:07 +0200 izanami (12127)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 16:43:07 +0200 izanami (12127)] INFO : Installing Net instrumentation
+[2017-10-18 16:43:07 +0200 izanami (12127)] INFO : Finished instrumentation
+[2017-10-18 16:43:21 +0200 izanami (12164)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 16:43:21 +0200 izanami (12164)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 16:43:21 +0200 izanami (12164)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 16:43:21 +0200 izanami (12164)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 16:43:21 +0200 izanami (12164)] INFO : Environment: development
+[2017-10-18 16:43:21 +0200 izanami (12164)] INFO : No known dispatcher detected.
+[2017-10-18 16:43:21 +0200 izanami (12164)] INFO : Application: development
+[2017-10-18 16:43:21 +0200 izanami (12164)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 16:43:21 +0200 izanami (12164)] INFO : Installing Redis Instrumentation
+[2017-10-18 16:43:21 +0200 izanami (12164)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 16:43:21 +0200 izanami (12164)] INFO : Installing Net instrumentation
+[2017-10-18 16:43:21 +0200 izanami (12164)] INFO : Finished instrumentation
+[2017-10-18 16:43:30 +0200 izanami (12193)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 16:43:30 +0200 izanami (12193)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 16:43:30 +0200 izanami (12193)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 16:43:30 +0200 izanami (12193)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 16:43:30 +0200 izanami (12193)] INFO : Environment: development
+[2017-10-18 16:43:30 +0200 izanami (12193)] INFO : No known dispatcher detected.
+[2017-10-18 16:43:30 +0200 izanami (12193)] INFO : Application: development
+[2017-10-18 16:43:30 +0200 izanami (12193)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 16:43:30 +0200 izanami (12193)] INFO : Installing Redis Instrumentation
+[2017-10-18 16:43:30 +0200 izanami (12193)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 16:43:30 +0200 izanami (12193)] INFO : Installing Net instrumentation
+[2017-10-18 16:43:30 +0200 izanami (12193)] INFO : Finished instrumentation
+[2017-10-18 16:43:51 +0200 izanami (12230)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 16:43:51 +0200 izanami (12230)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 16:43:51 +0200 izanami (12230)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 16:43:51 +0200 izanami (12230)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 16:43:51 +0200 izanami (12230)] INFO : Environment: development
+[2017-10-18 16:43:51 +0200 izanami (12230)] INFO : No known dispatcher detected.
+[2017-10-18 16:43:51 +0200 izanami (12230)] INFO : Application: development
+[2017-10-18 16:43:51 +0200 izanami (12230)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 16:43:51 +0200 izanami (12230)] INFO : Installing Redis Instrumentation
+[2017-10-18 16:43:51 +0200 izanami (12230)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 16:43:51 +0200 izanami (12230)] INFO : Installing Net instrumentation
+[2017-10-18 16:43:51 +0200 izanami (12230)] INFO : Finished instrumentation
+[2017-10-18 16:45:25 +0200 izanami (12349)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 16:45:25 +0200 izanami (12349)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 16:45:25 +0200 izanami (12349)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 16:45:25 +0200 izanami (12349)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 16:45:25 +0200 izanami (12349)] INFO : Environment: development
+[2017-10-18 16:45:25 +0200 izanami (12349)] INFO : No known dispatcher detected.
+[2017-10-18 16:45:25 +0200 izanami (12349)] INFO : Application: development
+[2017-10-18 16:45:25 +0200 izanami (12349)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 16:45:25 +0200 izanami (12349)] INFO : Installing Redis Instrumentation
+[2017-10-18 16:45:25 +0200 izanami (12349)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 16:45:25 +0200 izanami (12349)] INFO : Installing Net instrumentation
+[2017-10-18 16:45:25 +0200 izanami (12349)] INFO : Finished instrumentation
+[2017-10-18 16:45:40 +0200 izanami (12392)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 16:45:40 +0200 izanami (12392)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 16:45:40 +0200 izanami (12392)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 16:45:40 +0200 izanami (12392)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 16:45:40 +0200 izanami (12392)] INFO : Environment: development
+[2017-10-18 16:45:40 +0200 izanami (12392)] INFO : No known dispatcher detected.
+[2017-10-18 16:45:40 +0200 izanami (12392)] INFO : Application: development
+[2017-10-18 16:45:40 +0200 izanami (12392)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 16:45:40 +0200 izanami (12392)] INFO : Installing Redis Instrumentation
+[2017-10-18 16:45:40 +0200 izanami (12392)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 16:45:40 +0200 izanami (12392)] INFO : Installing Net instrumentation
+[2017-10-18 16:45:40 +0200 izanami (12392)] INFO : Finished instrumentation
+[2017-10-18 16:45:52 +0200 izanami (12432)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 16:45:52 +0200 izanami (12432)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 16:45:52 +0200 izanami (12432)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 16:45:52 +0200 izanami (12432)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 16:45:52 +0200 izanami (12432)] INFO : Environment: development
+[2017-10-18 16:45:52 +0200 izanami (12432)] INFO : No known dispatcher detected.
+[2017-10-18 16:45:52 +0200 izanami (12432)] INFO : Application: development
+[2017-10-18 16:45:52 +0200 izanami (12432)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 16:45:52 +0200 izanami (12432)] INFO : Installing Redis Instrumentation
+[2017-10-18 16:45:52 +0200 izanami (12432)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 16:45:52 +0200 izanami (12432)] INFO : Installing Net instrumentation
+[2017-10-18 16:45:52 +0200 izanami (12432)] INFO : Finished instrumentation
+[2017-10-18 16:46:03 +0200 izanami (12476)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 16:46:03 +0200 izanami (12476)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 16:46:03 +0200 izanami (12476)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 16:46:03 +0200 izanami (12476)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 16:46:03 +0200 izanami (12476)] INFO : Environment: development
+[2017-10-18 16:46:03 +0200 izanami (12476)] INFO : No known dispatcher detected.
+[2017-10-18 16:46:03 +0200 izanami (12476)] INFO : Application: development
+[2017-10-18 16:46:03 +0200 izanami (12476)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 16:46:03 +0200 izanami (12476)] INFO : Installing Redis Instrumentation
+[2017-10-18 16:46:03 +0200 izanami (12476)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 16:46:03 +0200 izanami (12476)] INFO : Installing Net instrumentation
+[2017-10-18 16:46:03 +0200 izanami (12476)] INFO : Finished instrumentation
+[2017-10-18 16:46:19 +0200 izanami (12500)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 16:46:19 +0200 izanami (12500)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 16:46:19 +0200 izanami (12500)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 16:46:19 +0200 izanami (12500)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 16:46:19 +0200 izanami (12500)] INFO : Environment: development
+[2017-10-18 16:46:19 +0200 izanami (12500)] INFO : No known dispatcher detected.
+[2017-10-18 16:46:19 +0200 izanami (12500)] INFO : Application: development
+[2017-10-18 16:46:19 +0200 izanami (12500)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 16:46:19 +0200 izanami (12500)] INFO : Installing Redis Instrumentation
+[2017-10-18 16:46:19 +0200 izanami (12500)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 16:46:19 +0200 izanami (12500)] INFO : Installing Net instrumentation
+[2017-10-18 16:46:19 +0200 izanami (12500)] INFO : Finished instrumentation
+[2017-10-18 16:47:32 +0200 izanami (12596)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 16:47:32 +0200 izanami (12596)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 16:47:32 +0200 izanami (12596)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 16:47:32 +0200 izanami (12596)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 16:47:32 +0200 izanami (12596)] INFO : Environment: development
+[2017-10-18 16:47:32 +0200 izanami (12596)] INFO : No known dispatcher detected.
+[2017-10-18 16:47:32 +0200 izanami (12596)] INFO : Application: development
+[2017-10-18 16:47:32 +0200 izanami (12596)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 16:47:32 +0200 izanami (12596)] INFO : Installing Redis Instrumentation
+[2017-10-18 16:47:32 +0200 izanami (12596)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 16:47:32 +0200 izanami (12596)] INFO : Installing Net instrumentation
+[2017-10-18 16:47:32 +0200 izanami (12596)] INFO : Finished instrumentation
+[2017-10-18 16:47:34 +0200 izanami (12609)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 16:47:34 +0200 izanami (12609)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 16:47:34 +0200 izanami (12609)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 16:47:34 +0200 izanami (12609)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 16:47:34 +0200 izanami (12609)] INFO : Environment: development
+[2017-10-18 16:47:34 +0200 izanami (12609)] INFO : No known dispatcher detected.
+[2017-10-18 16:47:34 +0200 izanami (12609)] INFO : Application: development
+[2017-10-18 16:47:34 +0200 izanami (12609)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 16:47:34 +0200 izanami (12609)] INFO : Installing Redis Instrumentation
+[2017-10-18 16:47:34 +0200 izanami (12609)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 16:47:34 +0200 izanami (12609)] INFO : Installing Net instrumentation
+[2017-10-18 16:47:34 +0200 izanami (12609)] INFO : Finished instrumentation
+[2017-10-18 16:48:53 +0200 izanami (12685)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 16:48:53 +0200 izanami (12685)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 16:48:53 +0200 izanami (12685)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 16:48:53 +0200 izanami (12685)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 16:48:53 +0200 izanami (12685)] INFO : Environment: development
+[2017-10-18 16:48:53 +0200 izanami (12685)] INFO : No known dispatcher detected.
+[2017-10-18 16:48:53 +0200 izanami (12685)] INFO : Application: development
+[2017-10-18 16:48:53 +0200 izanami (12685)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 16:48:53 +0200 izanami (12685)] INFO : Installing Redis Instrumentation
+[2017-10-18 16:48:53 +0200 izanami (12685)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 16:48:53 +0200 izanami (12685)] INFO : Installing Net instrumentation
+[2017-10-18 16:48:53 +0200 izanami (12685)] INFO : Finished instrumentation
+[2017-10-18 16:49:16 +0200 izanami (12713)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 16:49:16 +0200 izanami (12713)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 16:49:16 +0200 izanami (12713)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 16:49:16 +0200 izanami (12713)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 16:49:16 +0200 izanami (12713)] INFO : Environment: development
+[2017-10-18 16:49:16 +0200 izanami (12713)] INFO : No known dispatcher detected.
+[2017-10-18 16:49:16 +0200 izanami (12713)] INFO : Application: development
+[2017-10-18 16:49:16 +0200 izanami (12713)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 16:49:16 +0200 izanami (12713)] INFO : Installing Redis Instrumentation
+[2017-10-18 16:49:16 +0200 izanami (12713)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 16:49:16 +0200 izanami (12713)] INFO : Installing Net instrumentation
+[2017-10-18 16:49:16 +0200 izanami (12713)] INFO : Finished instrumentation
+[2017-10-18 16:51:40 +0200 izanami (12783)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 16:51:40 +0200 izanami (12783)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 16:51:40 +0200 izanami (12783)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 16:51:40 +0200 izanami (12783)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 16:51:40 +0200 izanami (12783)] INFO : Environment: development
+[2017-10-18 16:51:40 +0200 izanami (12783)] INFO : No known dispatcher detected.
+[2017-10-18 16:51:40 +0200 izanami (12783)] INFO : Application: development
+[2017-10-18 16:51:40 +0200 izanami (12783)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 16:51:40 +0200 izanami (12783)] INFO : Installing Redis Instrumentation
+[2017-10-18 16:51:40 +0200 izanami (12783)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 16:51:40 +0200 izanami (12783)] INFO : Installing Net instrumentation
+[2017-10-18 16:51:40 +0200 izanami (12783)] INFO : Finished instrumentation
+[2017-10-18 16:52:36 +0200 izanami (12820)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 16:52:36 +0200 izanami (12820)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 16:52:36 +0200 izanami (12820)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 16:52:36 +0200 izanami (12820)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 16:52:36 +0200 izanami (12820)] INFO : Environment: development
+[2017-10-18 16:52:36 +0200 izanami (12820)] INFO : No known dispatcher detected.
+[2017-10-18 16:52:36 +0200 izanami (12820)] INFO : Application: development
+[2017-10-18 16:52:36 +0200 izanami (12820)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 16:52:36 +0200 izanami (12820)] INFO : Installing Redis Instrumentation
+[2017-10-18 16:52:36 +0200 izanami (12820)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 16:52:36 +0200 izanami (12820)] INFO : Installing Net instrumentation
+[2017-10-18 16:52:36 +0200 izanami (12820)] INFO : Finished instrumentation
+[2017-10-18 16:52:43 +0200 izanami (12835)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 16:52:43 +0200 izanami (12835)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 16:52:43 +0200 izanami (12835)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 16:52:43 +0200 izanami (12835)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 16:52:43 +0200 izanami (12835)] INFO : Environment: development
+[2017-10-18 16:52:43 +0200 izanami (12835)] INFO : No known dispatcher detected.
+[2017-10-18 16:52:43 +0200 izanami (12835)] INFO : Application: development
+[2017-10-18 16:52:43 +0200 izanami (12835)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 16:52:43 +0200 izanami (12835)] INFO : Installing Redis Instrumentation
+[2017-10-18 16:52:43 +0200 izanami (12835)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 16:52:43 +0200 izanami (12835)] INFO : Installing Net instrumentation
+[2017-10-18 16:52:43 +0200 izanami (12835)] INFO : Finished instrumentation
+[2017-10-18 16:53:20 +0200 izanami (12854)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 16:53:20 +0200 izanami (12854)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 16:53:20 +0200 izanami (12854)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 16:53:20 +0200 izanami (12854)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 16:53:20 +0200 izanami (12854)] INFO : Environment: development
+[2017-10-18 16:53:20 +0200 izanami (12854)] INFO : No known dispatcher detected.
+[2017-10-18 16:53:20 +0200 izanami (12854)] INFO : Application: development
+[2017-10-18 16:53:20 +0200 izanami (12854)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 16:53:20 +0200 izanami (12854)] INFO : Installing Redis Instrumentation
+[2017-10-18 16:53:20 +0200 izanami (12854)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 16:53:20 +0200 izanami (12854)] INFO : Installing Net instrumentation
+[2017-10-18 16:53:20 +0200 izanami (12854)] INFO : Finished instrumentation
+[2017-10-18 16:53:34 +0200 izanami (13138)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 16:53:34 +0200 izanami (13138)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 16:53:34 +0200 izanami (13138)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 16:53:34 +0200 izanami (13138)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 16:53:34 +0200 izanami (13138)] INFO : Environment: development
+[2017-10-18 16:53:34 +0200 izanami (13138)] INFO : No known dispatcher detected.
+[2017-10-18 16:53:34 +0200 izanami (13138)] INFO : Application: development
+[2017-10-18 16:53:34 +0200 izanami (13138)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 16:53:34 +0200 izanami (13138)] INFO : Installing Redis Instrumentation
+[2017-10-18 16:53:34 +0200 izanami (13138)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 16:53:34 +0200 izanami (13138)] INFO : Installing Net instrumentation
+[2017-10-18 16:53:34 +0200 izanami (13138)] INFO : Finished instrumentation
+[2017-10-18 19:22:34 +0200 izanami (6500)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 19:22:34 +0200 izanami (6500)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 19:22:34 +0200 izanami (6500)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 19:22:34 +0200 izanami (6500)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 19:22:34 +0200 izanami (6500)] INFO : Environment: development
+[2017-10-18 19:22:34 +0200 izanami (6500)] INFO : No known dispatcher detected.
+[2017-10-18 19:22:34 +0200 izanami (6500)] INFO : Application: development
+[2017-10-18 19:22:34 +0200 izanami (6500)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 19:22:34 +0200 izanami (6500)] INFO : Installing Redis Instrumentation
+[2017-10-18 19:22:34 +0200 izanami (6500)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 19:22:34 +0200 izanami (6500)] INFO : Installing Net instrumentation
+[2017-10-18 19:22:34 +0200 izanami (6500)] INFO : Finished instrumentation
+[2017-10-18 19:22:38 +0200 izanami (6520)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 19:22:38 +0200 izanami (6520)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 19:22:38 +0200 izanami (6520)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 19:22:38 +0200 izanami (6520)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 19:22:38 +0200 izanami (6520)] INFO : Environment: development
+[2017-10-18 19:22:38 +0200 izanami (6520)] INFO : No known dispatcher detected.
+[2017-10-18 19:22:38 +0200 izanami (6520)] INFO : Application: development
+[2017-10-18 19:22:38 +0200 izanami (6520)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 19:22:38 +0200 izanami (6520)] INFO : Installing Redis Instrumentation
+[2017-10-18 19:22:38 +0200 izanami (6520)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 19:22:38 +0200 izanami (6520)] INFO : Installing Net instrumentation
+[2017-10-18 19:22:38 +0200 izanami (6520)] INFO : Finished instrumentation
+[2017-10-18 19:28:10 +0200 izanami (6780)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 19:28:10 +0200 izanami (6780)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 19:28:10 +0200 izanami (6780)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 19:28:10 +0200 izanami (6780)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 19:28:10 +0200 izanami (6780)] INFO : Environment: development
+[2017-10-18 19:28:10 +0200 izanami (6780)] INFO : No known dispatcher detected.
+[2017-10-18 19:28:10 +0200 izanami (6780)] INFO : Application: development
+[2017-10-18 19:28:10 +0200 izanami (6780)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 19:28:10 +0200 izanami (6780)] INFO : Installing Redis Instrumentation
+[2017-10-18 19:28:10 +0200 izanami (6780)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 19:28:10 +0200 izanami (6780)] INFO : Installing Net instrumentation
+[2017-10-18 19:28:10 +0200 izanami (6780)] INFO : Finished instrumentation
+[2017-10-18 19:28:28 +0200 izanami (7073)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 19:28:28 +0200 izanami (7073)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 19:28:28 +0200 izanami (7073)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 19:28:28 +0200 izanami (7073)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 19:28:28 +0200 izanami (7073)] INFO : Environment: development
+[2017-10-18 19:28:28 +0200 izanami (7073)] INFO : No known dispatcher detected.
+[2017-10-18 19:28:28 +0200 izanami (7073)] INFO : Application: development
+[2017-10-18 19:28:28 +0200 izanami (7073)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 19:28:28 +0200 izanami (7073)] INFO : Installing Redis Instrumentation
+[2017-10-18 19:28:28 +0200 izanami (7073)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 19:28:28 +0200 izanami (7073)] INFO : Installing Net instrumentation
+[2017-10-18 19:28:28 +0200 izanami (7073)] INFO : Finished instrumentation
+[2017-10-18 19:28:32 +0200 izanami (7359)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 19:28:32 +0200 izanami (7359)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 19:28:32 +0200 izanami (7359)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 19:28:32 +0200 izanami (7359)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 19:28:32 +0200 izanami (7359)] INFO : Environment: development
+[2017-10-18 19:28:32 +0200 izanami (7359)] INFO : No known dispatcher detected.
+[2017-10-18 19:28:32 +0200 izanami (7359)] INFO : Application: development
+[2017-10-18 19:28:32 +0200 izanami (7359)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 19:28:32 +0200 izanami (7359)] INFO : Installing Redis Instrumentation
+[2017-10-18 19:28:32 +0200 izanami (7359)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 19:28:32 +0200 izanami (7359)] INFO : Installing Net instrumentation
+[2017-10-18 19:28:32 +0200 izanami (7359)] INFO : Finished instrumentation
+[2017-10-18 19:31:25 +0200 izanami (7516)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 19:31:25 +0200 izanami (7516)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 19:31:25 +0200 izanami (7516)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 19:31:25 +0200 izanami (7516)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 19:31:25 +0200 izanami (7516)] INFO : Environment: development
+[2017-10-18 19:31:25 +0200 izanami (7516)] INFO : No known dispatcher detected.
+[2017-10-18 19:31:25 +0200 izanami (7516)] INFO : Application: development
+[2017-10-18 19:31:25 +0200 izanami (7516)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 19:31:25 +0200 izanami (7516)] INFO : Installing Redis Instrumentation
+[2017-10-18 19:31:25 +0200 izanami (7516)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 19:31:25 +0200 izanami (7516)] INFO : Installing Net instrumentation
+[2017-10-18 19:31:25 +0200 izanami (7516)] INFO : Finished instrumentation
+[2017-10-18 19:31:45 +0200 izanami (7541)] INFO : Starting the New Relic agent version 4.3.0.335 in "development" environment.
+[2017-10-18 19:31:45 +0200 izanami (7541)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2017-10-18 19:31:45 +0200 izanami (7541)] WARN : No configuration file found. Working directory = /home/mencio/Software/Github/karafka/ping-pong
+[2017-10-18 19:31:45 +0200 izanami (7541)] WARN : Looked in these locations (based on defaults): /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/config/newrelic.yml, /home/mencio/Software/Github/karafka/ping-pong/newrelic.yml, /home/mencio/.newrelic/newrelic.yml, /home/mencio/newrelic.yml
+[2017-10-18 19:31:45 +0200 izanami (7541)] INFO : Environment: development
+[2017-10-18 19:31:45 +0200 izanami (7541)] INFO : No known dispatcher detected.
+[2017-10-18 19:31:45 +0200 izanami (7541)] INFO : Application: development
+[2017-10-18 19:31:45 +0200 izanami (7541)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2017-10-18 19:31:45 +0200 izanami (7541)] INFO : Installing Redis Instrumentation
+[2017-10-18 19:31:45 +0200 izanami (7541)] INFO : Installing Sidekiq instrumentation
+[2017-10-18 19:31:45 +0200 izanami (7541)] INFO : Installing Net instrumentation
+[2017-10-18 19:31:45 +0200 izanami (7541)] INFO : Finished instrumentation

@@ -1,0 +1,82 @@
+WaterDrop::Message.new(:users_events, {time_taken: rand}.to_json)
+WaterDrop::Message.new(:users_events, {time_taken: rand}.to_json).send!
+1000.times { WaterDrop::Message.new(:users_events, {time_taken: rand}.to_json).send! }
+100.times { WaterDrop::Message.new(:users_events, {time_taken: rand}.to_json).send! }
+100.times { WaterDrop::Message.new(:users_events, {time_taken: rand}.to_json).send! }
+[].delete_if {|a| a > 1}
+[1,2,3,4].delete_if {|a| a > 1}
+[1,2,3,4].delete_if {|a| a > 1}
+a = [1,2,3,4].delete_if {|a| a > 1}
+a
+[1,2,3,4].select {|a| a > 1}
+{a => 1}
+{a => 1}.select {|k,v| v == 1}
+{'a' => 1, 'b' => 2}.select {|k,v| v == 1}
+{'a' => 1, 'b' => 2}.select {|k,v| v == 1}
+WaterDrop::Message.new(:users_events, {user_id: 1, type: 'video_viewed'}.to_json).send!
+WaterDrop::Message.new(:users_events, {user_id: 1, type: 'comment_added'}.to_json).send!
+WaterDrop::Message.new(:users_events, {user_id: 1, type: 'comment_added'}.to_json).send!
+WaterDrop::Message.new(:users_events, {user_id: 1, type: 'video_viewed'}.to_json).send!
+WaterDrop::Message.new(:users_events, {user_id: 1, type: 'video_viewed'}.to_json).send!
+WaterDrop::Message.new(:users_events, {user_id: 1, type: 'comment_added'}.to_json).send!
+WaterDrop::Message.new(:users_events, {user_id: 1, type: 'comment_added'}.to_json).send!
+WaterDrop::Message.new(:users_events, {user_id: 1, type: 'video_viewed'}.to_json).send!
+WaterDrop::Message.new(:users_events, {user_id: 1, type: 'video_viewed'}.to_json).send!
+WaterDrop::Message.new(:users_events, {user_id: 1, type: 'comment_added'}.to_json).send!
+{a: 1}
+{a: 1}.delete(:a)
+{a: 1}.delete(:a, :b)
+{a: 1}.delete(:a, :b)
+{a: 1}.delete_if {|k,v|}
+WaterDrop::Message.new(:users_events, {user_id: 1, type: 'comment_added'}.to_json).send!
+WaterDrop::Message.new(:users_events, {user_id: 1, type: 'video_viewed'}.to_json).send!
+WaterDrop::Message.new(:users_events, {user_id: 1, type: 'comment_added'}.to_json).send!
+WaterDrop::Message.new(:users_events, {user_id: 1, type: 'video_viewed'}.to_json).send!
+WaterDrop::Message.new(:users_events, {user_id: 1, type: 'video_viewed'}.to_json).send!
+WaterDrop::Message.new(:users_events, {user_id: 1, type: 'comment_added'}.to_json).send!
+WaterDrop::Message.new(:users_events, {user_id: 1, type: 'comment_added'}.to_json).send!
+WaterDrop::Message.new(:users_events, {user_id: 1, type: 'video_viewed'}.to_json).send!
+WaterDrop::Message.new(:users_events, {user_id: 1, type: 'video_viewed'}.to_json).send!
+WaterDrop::Message.new(:users_events, {user_id: 1, type: 'comment_added'}.to_json).send!
+WaterDrop::Message.new(:users_events, {user_id: 1, type: 'comment_added'}.to_json).send!
+WaterDrop::Message.new(:users_events, {user_id: 1, type: 'video_viewed'}.to_json).send!
+WaterDrop::Message.new(:users_events, {user_id: 1, type: 'video_viewed'}.to_json).send!
+WaterDrop::Message.new(:users_events, {user_id: 1, type: 'comment_added'}.to_json).send!
+WaterDrop::Message.new(:users_events, {user_id: 1, type: 'comment_added'}.to_json).send!
+WaterDrop::Message.new(:users_events, {user_id: 1, type: 'video_viewed'}.to_json).send!
+WaterDrop::Message.new(:users_events, {user_id: 1, type: 'video_viewed'}.to_json).send!
+WaterDrop::Message.new(:users_events, {user_id: 1, type: 'comment_added'}.to_json).send!
+WaterDrop::Message.new(:users_events, {user_id: 1, type: 'video_viewed'}.to_json).send!
+WaterDrop::Message.new(:users_events, {user_id: 1, type: 'comment_added'}.to_json).send!
+WaterDrop::Message.new(:users_events, {user_id: 1, type: 'video_viewed'}.to_json).send!
+WaterDrop::Message.new(:users_events, {user_id: 1, type: 'comment_added'}.to_json).send!
+[]+=[]
+a = []
+a += [1]
+[].merge
+[].join
+[] += []
+a = []
+a += [1]
+a
+a += [2]
+a += [1]
+a += [1]
+exit
+WaterDrop::Message.new(:users_events, {user_id: 1, type: 'video_viewed'}.to_json).send!
+WaterDrop::Message.new(:users_events, {user_id: 1, type: 'comment_added'}.to_json).send!
+WaterDrop::Message.new(:users_events, {user_id: 1, type: 'comment_added'}.to_json).send!
+WaterDrop::Message.new(:users_events, {user_id: 1, type: 'video_viewed'}.to_json).send!
+101.times { |i| WaterDrop::Message.new(:users_events, {user_id: i, type: 'video_viewed'}.to_json).send! }
+101.times { |i| WaterDrop::Message.new(:users_events, {user_id: i, type: 'comment_added'}.to_json).send! }
+101.times { |i| WaterDrop::Message.new(:users_events, {user_id: i, type: 'comment_added'}.to_json).send! }
+101.times { |i| WaterDrop::Message.new(:users_events, {user_id: i, type: 'video_viewed'}.to_json).send! }
+101.times { |i| WaterDrop::Message.new(:users_events, {user_id: i, type: 'video_viewed'}.to_json).send! }
+101.times { |i| WaterDrop::Message.new(:users_events, {user_id: i, type: 'comment_added'}.to_json).send! }
+exit
+201.times { |i| WaterDrop::Message.new(:users_events, {user_id: i, type: 'video_viewed'}.to_json).send! }
+1.times { |i| WaterDrop::Message.new(:users_events, {user_id: i, type: 'video_viewed'}.to_json).send! }
+201.times { |i| WaterDrop::Message.new(:users_events, {user_id: i, type: 'video_viewed'}.to_json).send! }
+101.times { |i| WaterDrop::Message.new(:users_events, {user_id: i, type: 'comment_added'}.to_json).send! }
+201.times { |i| WaterDrop::Message.new(:users_events, {user_id: i, type: 'video_viewed'}.to_json).send! }
+101.times { |i| WaterDrop::Message.new(:users_events, {user_id: i, type: 'comment_added'}.to_json).send! }

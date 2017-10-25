@@ -1,0 +1,31 @@
+defaults: &defaults
+  name: 'super_appx1x22'
+
+  concurrency: 1
+
+  kafka:
+    seed_brokers:
+      - '127.0.0.1:9092'
+
+  redis:
+    url: redis://localhost:6379
+
+  sidekiq:
+    timeout: 60
+
+  waterdrop:
+    connection:
+      pool_size: 2
+      pool_timeout: 1
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults
+
+debug:
+  <<: *defaults
